@@ -1,0 +1,38 @@
+{
+  "annotations": {
+    "changelogDate": "20240815180851"
+  },
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "identity",
+      "fieldType": "Long",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "duedate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "completed",
+      "fieldType": "Boolean",
+      "fieldValidateRules": []
+    }
+  ],
+  "name": "Task",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "no"
+}
